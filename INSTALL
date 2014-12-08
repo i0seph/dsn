@@ -1,0 +1,19 @@
+* database
+
+sql 디렉토리 안에 있는 두 파일은 
+PostgreSQL 9.3.x 버전에서 덤프 받은 파일입니다.
+
+실행 방법은
+
+psql -U postgres postgres < 01_global_schema.sql
+psql -U postgres dsn < 02_dsn_schema.sql
+
+* web
+
+PHP 구성도 되어야 하고,
+보안 문제도 정리 해야 해서
+웹 환경은 차후 차근히 준비하겠습니다.
+
+기본 골격 코드는 http://database.sarang.net/sources.php 페이지를 참조하세요.
+
+
